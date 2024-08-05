@@ -320,7 +320,7 @@ module module_debug
 #ifdef _METGRID 
             call parallel_abort()
 #endif
-            stop
+            error stop
          end if
 
       end if
